@@ -1,0 +1,11 @@
+{% extends 'index.html' %} 
+    {% block board %} 
+        {% for row in board %}
+            {% set y = board[row] %}
+            <tr></tr>
+            {% for letter in row %}
+                {% set x = row[letter] %}
+                <td id="{{y}}-{{x}}">{{letter}}</td>
+            {% endfor %} 
+        {% endfor %} 
+    {% endblock %}
