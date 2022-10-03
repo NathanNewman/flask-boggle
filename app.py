@@ -12,9 +12,10 @@ def load_home():
     return load_board()
 
 
-app.route('/check-word')
+@app.route('/check-word')
 def check_word():
     word = request.args["text"]
+    print(word)
     board = game_board
     return boggle_game.check_valid_word(board, word)
 

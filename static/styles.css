@@ -1,0 +1,12 @@
+table {
+    border: 2px solid;
+    background-color: burlywood;
+}
+
+td {
+    height: 3em;
+    width: 3em;
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+}
