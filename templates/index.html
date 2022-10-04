@@ -8,6 +8,8 @@
     <link href="/static/styles.css" rel="stylesheet" />
   </head>
   <body>
+    <h1>Boggle</h1>
+    <h3 id="clock"></h3>
     <table id="boggleBoard">
       {% block board %} {% endblock %}
     </table>
@@ -16,6 +18,10 @@
       <input id="word" type="text" name="word" />
       <button type="submit">Submit</button>
     </forms>
+    <ul id="wordsList">
+      <h3>Scoring Words</h3>
+    </ul>
+    <h5 id="score"></h5>
 
     <!-- Library JS & our JS -->
     <script src="https://unpkg.com/jquery"></script>
