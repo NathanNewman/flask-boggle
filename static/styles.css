@@ -1,3 +1,11 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    margin-left: 15%;
+}
+
 table {
     border: 2px solid;
     background-color: burlywood;
@@ -9,4 +17,20 @@ td {
     border: 1px solid;
     text-align: center;
     background-color: white;
+}
+
+#game {
+    display:flex;
+}
+
+#rightside {
+    flex-grow: 1;
+}
+
+#score {
+    margin-left: 5%;
+}
+
+#words {
+    margin-left: 1%;
 }
